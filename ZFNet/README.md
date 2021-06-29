@@ -6,7 +6,7 @@ is very low and if the model fails, we have no clue why.
 The central architecture is to use specific convolutional
 neural network and produce *heat maps*.
 
-## The architecture 
+## The Architecture 
 * Convolutional layers
 * Global Average Pooling
 * The last fully connected layer to predict the classes
