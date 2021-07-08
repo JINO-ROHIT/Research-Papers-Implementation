@@ -1,3 +1,5 @@
+# ResNet Architecture
+
 In this , well talk about ResNet and why deeper layers arent always the best.
 In the previous architecture Vgg16/19, it was shown that deeper layers helped
 in learning more and more complex features and hence better accuracy. But this
@@ -9,6 +11,7 @@ To explain this in simple terms, say for every two layers we can add the
 activation directly and skip the normal path it takes through the linear
 path and activation functions and so on.
 
+## More intuition to why it works
 Consider x passed through first layer gives a[l] and second layer gives a[l+1],
 third layer gives a[l+2]. Supposee our skip connection is from a[l] added to
 a[l+2].
