@@ -4,6 +4,7 @@ Dense Prediction since we are predicting for every pixel in the image. So unlike
 
 ## The Architecture
 It mainly consists of two parts - the contraction path and the expanding path.
+
 ![img](u-net.png)
 
 ### Contraction Path
