@@ -8,3 +8,4 @@ end of each inception module. Even though you have all this , the model is still
 So they also proposed the use of auxillary classifier during training. Out of the 9 inception modules they had, two modules had softmaxes at the end of the layer and an *auxillary*
 loss was calculated. So now instead of taking only the final loss at the end, we use the weighted sum of these auxillary losses as well. Remember , auxillary losses are just for
 training and not for inference.
+![module](inception_module.png)
